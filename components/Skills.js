@@ -1,8 +1,8 @@
 const Skills = () => {
     return (
       <div className="skills-container" id="skills">
-        <h2>Skills</h2>
         <div className="Soft-skills">
+        <h2>Skills</h2>
           <h3>Soft Skills</h3>
               <div>
               <ul>

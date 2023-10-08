@@ -4,8 +4,8 @@ import { projectData } from './data.js';
 const Education = () => {
   return (
     <div className="Education-container" id="education">
-      <h2>Education</h2>
       <div className="Education-grid">
+      <h2>Education</h2>
         {projectData && projectData.map((project) => (
           <div className="project-card" key={project.id}>
             <div className="project-header">
