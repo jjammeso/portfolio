@@ -5,6 +5,7 @@ const Education = () => {
   return (
     <div className="Education-container" id="education">
       <div className="Education-grid">
+        <br/><br/>
       <h2>Education</h2>
         {projectData && projectData.map((project) => (
           <div className="project-card" key={project.id}>

@@ -2,6 +2,7 @@ const Skills = () => {
     return (
       <div className="skills-container" id="skills">
         <div className="Soft-skills">
+          <br/><br/>
         <h2>Skills</h2>
           <h3>Soft Skills</h3>
               <div>
