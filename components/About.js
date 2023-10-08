@@ -4,6 +4,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className="about-container" id="about-me">
+      <br/><br/>
       <h2>About Me</h2>
       <div className="flex-about">
         <div className="about-text">

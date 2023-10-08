@@ -8,7 +8,7 @@ const Hero = () => {
         <h1>Hey, I&apos;m Sonam Jamtsho 👋</h1>
         <p>
           I&apos;m a Fullstack web developer.
-        </p>
+        </p><br/><br/><br/>
       </div>
     </div>
   )
