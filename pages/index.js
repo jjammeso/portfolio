@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Sonam&aposs Portfolio</title>
+        <title>Sonam&apos;s Portfolio</title>
         <meta name="description" content="Sonam's Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
