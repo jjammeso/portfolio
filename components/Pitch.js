@@ -1,11 +1,15 @@
 export default function PitchVideo(){
     return (
         <div className="pitch">
-          <video controls autoPlay >
-            <source src="https://www.youtube.com/watch?v=SqcY0GlETPk" type="video/mp4" />
-            {/* You can add additional <source> elements for different video formats (e.g., WebM, Ogg) */}
-            Your browser does not support the video tag.
-          </video>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=lC-yYCOnN8Q"
+          title="YouTube Video"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
         </div>
       );
 }
