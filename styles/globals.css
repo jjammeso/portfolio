@@ -189,7 +189,9 @@ hr {
   align-items: center;
   flex-direction: column;
   padding: 5rem 0 0rem 0;
-  color:#FFCC1A;
+  color:#050505;
+  background-image: url('../public/background.png');
+  background-size: cover;
 }
 
 .hero-container .profile-img {
@@ -198,6 +200,11 @@ hr {
   border-radius: 50%;
   margin: 0 auto;
   object-fit: cover;
+}
+
+.span{
+  background-color:rgb(251, 249, 247) ;
+  border-radius: 10%;
 }
 
 .hero-container .hero-text {
@@ -493,6 +500,7 @@ video {
   align-items: center;
   height: 30vh; /* Adjust the height as needed to control the video's size */
   padding-bottom: 6rem;
+  background-color: #333;
 }
 
 .Experience-container{

@@ -5,9 +5,9 @@ const Hero = () => {
     <div className="hero-container">
       <Image src='/profilepic.jpeg' className="profile-img" width={300} height={300} alt="Profile pic" objectFit="contain"/>
       <div className="hero-text">
-        <h1>Hey, I&apos;m Sonam Jamtsho 👋</h1>
+        <h1><span className="span">Hey, I&apos;m Sonam Jamtsho 👋</span></h1>
         <p>
-          I&apos;m a Fullstack web developer.
+          <span className="span">I&apos;m a Fullstack web developer.</span>
         </p><br/><br/><br/>
       </div>
     </div>
