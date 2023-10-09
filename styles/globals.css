@@ -500,7 +500,11 @@ video {
   align-items: center;
   height: 30vh; /* Adjust the height as needed to control the video's size */
   padding-bottom: 6rem;
-  background-color: #333;
+  background-color: #dc2b2b00;
+}
+
+.pitch video{
+  background-color: #050505;
 }
 
 .Experience-container{
