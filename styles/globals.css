@@ -184,7 +184,7 @@ hr {
 
 .hero-container {
   height: 100vh;
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -198,13 +198,16 @@ hr {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  margin: 0 auto;
+  margin-top: 5rem ;
   object-fit: cover;
 }
 
 .span{
   background-color:rgb(251, 249, 247) ;
   border-radius: 10%;
+  bottom:0;
+  left: 50%;
+  transform:translateX(-50%);
 }
 
 .hero-container .hero-text {
@@ -252,6 +255,7 @@ hr {
 .about-container {
   width: 900px;
   margin: 0 auto; 
+  background-color:#333;
 }
 
 .about-container h2 {
@@ -264,7 +268,6 @@ hr {
 .about-container .flex-about {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   gap: 0 2rem;
 }
 
@@ -494,13 +497,16 @@ video {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
 
-.pitch{
+.pitch {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 30vh; /* Adjust the height as needed to control the video's size */
+  height: 30vh;
+  /* Adjust the height as needed to control the video's size */
   padding-bottom: 6rem;
   background-color: #dc2b2b00;
+  overflow: hidden;
+  z-index: 15;
+  height: 100%;
 }
 
 .pitch video{
